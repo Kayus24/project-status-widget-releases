@@ -18,3 +18,7 @@ Do not use this repository for source-code fixes, design work, browser automatio
 ## Gates
 - Publish only artifacts built/tested from the source repo.
 - Verify SHA-256 and canonical signer before release metadata is changed.
+## Directory routing
+- `downloads/**`: published APK/update assets only.
+- `README.md` and `TOOL_ROUTING.md`: release-channel contract/documentation.
+- No source-code implementation directories belong in this repository.
